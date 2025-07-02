@@ -13,7 +13,7 @@ class Database{
             try{
                  $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->db_name;
                  $this->conn = new PDO($dsn, $this->username, $this->password);
-                 $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPT);
+                 $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             }
             catch(PDOException $e){
                 echo 'Erro de conexão: ' . $e->getMessage();
