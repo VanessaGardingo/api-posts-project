@@ -7,6 +7,7 @@ O objetivo era construir uma API simples que permite criar, ler, atualizar e apa
 ## O que eu usei para construir
 
 **Prompt de Comando:** Para criar as pastas e inicializar o servidor.
+**VS CODE:** Realização do Script.
 **PHP:** Para criar toda a lógica da API.
 **MySQL Workbench:** Banco de dados do projeto.
 **Postman:** Para testar cada funcionalidade e ver se estava tudo certo.
